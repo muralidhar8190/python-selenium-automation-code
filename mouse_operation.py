@@ -175,21 +175,21 @@
 
 #JQuery Right click:
 
-# import time
-# from selenium import webdriver
-# from selenium.webdriver import ActionChains, Keys
-# from selenium.webdriver.common.by import By
-# driver = webdriver.Chrome()
-# driver.maximize_window()
-# driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html")
-# time.sleep(5)
-# button = driver.find_element(By.XPATH, "//span[text()='right click me']")
-# action = ActionChains(driver)
-# action.context_click(button).perform()
-# quit_option = driver.find_element(By.XPATH, "//li/span[text()='Quit']")  #Quit option click cheysinam
-# action.click(quit_option).perform()
-# time.sleep(5)
-# driver.quit()
+import time
+from selenium import webdriver
+from selenium.webdriver import ActionChains, Keys
+from selenium.webdriver.common.by import By
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html")
+time.sleep(5)
+button = driver.find_element(By.XPATH, "//span[text()='right click me']")
+action = ActionChains(driver)
+action.context_click(button).perform()
+quit_option = driver.find_element(By.XPATH, "//li/span[text()='Quit']")  #Quit option click cheysinam
+action.click(quit_option).perform()
+time.sleep(5)
+driver.quit()
 
 #ActionChains() using pause:
 import time
