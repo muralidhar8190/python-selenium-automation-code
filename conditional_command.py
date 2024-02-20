@@ -78,3 +78,5 @@ if driver.find_element(By.XPATH, "//input[@value='Bike']").is_selected():
 else:
     print("Not Selected State")
 driver.quit()
+
+#This is conditional statement
