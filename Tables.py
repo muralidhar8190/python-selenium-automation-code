@@ -115,7 +115,7 @@ driver.quit()
 
 def test_sample():
     print("Sample Text Case")
-    
+
 def test_sample_1():
     print("Sample Text Case_1")
 
