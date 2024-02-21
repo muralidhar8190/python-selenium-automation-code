@@ -112,6 +112,14 @@ for page in range(1, pages+1):
 
 driver.quit()
 
+def test_sample():
+    print("Sample Text Case")
+
+def test_sample_1():
+    print("Sample Text Case_1")
+
+
+
 
 
 
